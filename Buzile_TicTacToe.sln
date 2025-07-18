@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzile_TicTacToe", "Buzile_TicTacToe\Buzile_TicTacToe.csproj", "{AF9A5985-E35B-463B-A0D1-973A8076FF17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87B8BA32-7EE5-4B25-A23D-C29B2C19C1A2}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

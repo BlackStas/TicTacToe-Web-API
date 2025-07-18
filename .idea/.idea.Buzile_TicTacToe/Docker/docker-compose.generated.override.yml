@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  buzile_tictactoe:
+    build:
+      context: "C:\\Users\\Black_Stas\\RiderProjects\\Buzile_TicTacToe"
+      dockerfile: "Buzile_TicTacToe/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/Buzile_TicTacToe.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "buzile_tictactoe:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Black_Stas\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\Black_Stas\\RiderProjects\\Buzile_TicTacToe\\Buzile_TicTacToe:/app:rw"
+    - "C:\\Users\\Black_Stas\\RiderProjects\\Buzile_TicTacToe:/src:rw"
+    working_dir: "/app"

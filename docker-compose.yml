@@ -1,0 +1,6 @@
+﻿services:
+  buzile_tictactoe:
+    image: buzile_tictactoe
+    build:
+      context: .
+      dockerfile: Buzile_TicTacToe/Dockerfile
