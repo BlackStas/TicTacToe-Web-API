@@ -38,6 +38,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.MapControllers();
 
-
+app.Urls.Add("http://*:8080");
+app.MapGet("/ping", () => "pong");
+app.MapControllers();
 
 app.Run();

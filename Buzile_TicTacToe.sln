@@ -7,15 +7,49 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buzile_TicTacToe.Tests", "Buzile_TicTacToe.Tests", "{D8D4BC95-034B-17B8-8AAD-F4B119B50DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzile_TicTacToe.Tests", "Buzile_TicTacToe.Tests\Buzile_TicTacToe.Tests\Buzile_TicTacToe.Tests.csproj", "{D30CB40E-39C2-483B-AA9F-16E783F33BDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Debug|x64.Build.0 = Debug|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Debug|x86.Build.0 = Debug|Any CPU
 		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Release|x64.ActiveCfg = Release|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Release|x64.Build.0 = Release|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Release|x86.ActiveCfg = Release|Any CPU
+		{AF9A5985-E35B-463B-A0D1-973A8076FF17}.Release|x86.Build.0 = Release|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Debug|x64.Build.0 = Debug|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Debug|x86.Build.0 = Debug|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Release|x64.ActiveCfg = Release|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Release|x64.Build.0 = Release|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Release|x86.ActiveCfg = Release|Any CPU
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D30CB40E-39C2-483B-AA9F-16E783F33BDB} = {D8D4BC95-034B-17B8-8AAD-F4B119B50DF9}
 	EndGlobalSection
 EndGlobal

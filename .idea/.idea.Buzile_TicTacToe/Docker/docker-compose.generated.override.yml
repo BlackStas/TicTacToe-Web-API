@@ -2,9 +2,9 @@
 services:
   buzile_tictactoe:
     build:
-      context: "C:\\Users\\Black_Stas\\RiderProjects\\Buzile_TicTacToe"
+      context: "C:\\Users\\Black_Stas\\RiderProjects\\Buzile_TicTacToe\\TicTacToe-Web-API"
       dockerfile: "Buzile_TicTacToe/Dockerfile"
-      target: "base"
+      target: "build"
     command: []
     entrypoint:
     - "dotnet"
@@ -15,7 +15,8 @@ services:
     image: "buzile_tictactoe:dev"
     ports: []
     volumes:
-    - "C:\\Users\\Black_Stas\\.nuget\\packages:/home/app/.nuget/packages"
-    - "C:\\Users\\Black_Stas\\RiderProjects\\Buzile_TicTacToe\\Buzile_TicTacToe:/app:rw"
-    - "C:\\Users\\Black_Stas\\RiderProjects\\Buzile_TicTacToe:/src:rw"
+    - "C:\\Users\\Black_Stas\\.nuget\\packages:/root/.nuget/packages"
+    - "C:\\Users\\Black_Stas\\RiderProjects\\Buzile_TicTacToe\\TicTacToe-Web-API\\\
+      Buzile_TicTacToe:/app:rw"
+    - "C:\\Users\\Black_Stas\\RiderProjects\\Buzile_TicTacToe\\TicTacToe-Web-API:/src:rw"
     working_dir: "/app"
